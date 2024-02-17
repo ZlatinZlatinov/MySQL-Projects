@@ -24,7 +24,7 @@ ALTER TABLE minions
 ADD COLUMN town_id INT NOT NULL,
 ADD FOREIGN KEY (town_id) REFERENCES towns(id);
 
--- 03. Insert Records in Both Tables 100/100, dea i Judgeto
+-- 03. Insert Records in Both Tables 100/100
 INSERT INTO towns (id, name) VALUES 
 (1, "Sofia"),
 (2, "Plovdiv"),
