@@ -73,7 +73,7 @@ FROM employees AS e
 WHERE e.hire_date > '1999-1-1'  
 ORDER BY e.hire_date;  
 
--- 07. Employees with Project 100/100 DEA I JUJETO WEEE 
+-- 07. Employees with Project 100/100 
 SELECT 
 	e.employee_id, 
     e.first_name, 
