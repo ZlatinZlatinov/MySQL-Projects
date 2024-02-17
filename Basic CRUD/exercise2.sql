@@ -94,7 +94,7 @@ FROM employees
 ORDER BY hire_date DESC
 LIMIT 7;
 
--- 20. Increase Salaries 100/100 dea i jugeto
+-- 20. Increase Salaries 100/100
 UPDATE  employees 
 SET salary = salary * 1.12
 WHERE department_id IN (
