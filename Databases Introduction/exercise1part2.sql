@@ -1,5 +1,5 @@
 CREATE DATABASE movies; 
--- dea i judgeto ti makq ti dea...
+
 USE movies; 
 
 CREATE TABLE directors(
